@@ -19,6 +19,7 @@ class MatrixDFS:
             print(grid)
             self.dfs(grid, row, col+1)
         if col- 1 >=0 and grid[row][col-1] == "1":
+
             self.dfs(grid, row, col-1)
 
 if __name__ =="__main__":
