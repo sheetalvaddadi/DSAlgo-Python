@@ -62,6 +62,9 @@ class LinkedList:
         if (position == 0):
             self.head= self.head.next
             return
+        '''
+        If the position is not implemented in a zero position 
+        '''
         cur_node = self.head
         while (cur_node.next is not None and position > 1):
             cur_node = cur_node.next
